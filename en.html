@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arie Skipper & Chef | Yacht Cruises and Chef Experiences at Sea</title>
+    <meta name="description" content="Luxury yacht cruises with chef meals on the open sea. Romantic cruises, events, fishing and overnight cruises. Herzliya Marina and Haifa Marina.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-ltr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Frank+Ruhl+Libre:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/logo/Arie-Skipper-_-Chef-1.png" alt="Arie Skipper & Chef" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#chef" class="nav-link">Chef Cruises</a></li>
+                <li><a href="#fleet" class="nav-link">Yacht Fleet</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
+                <li class="nav-lang">
+                    <button class="lang-toggle" aria-label="Language">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>EN</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="index.html" class="lang-option">עברית</a>
+                        <a href="en.html" class="lang-option active">English</a>
+                        <a href="fr.html" class="lang-option">Français</a>
+                        <a href="ru.html" class="lang-option">Русский</a>
+                        <a href="ar.html" class="lang-option">العربية</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/seasunset2.jpeg" alt="Sunset from the yacht" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Welcome to an unforgettable experience</p>
+            <h1 class="hero-title">Yacht Cruises<br><span class="hero-highlight">with Chef Meals</span><br>on the Open Sea</h1>
+            <p class="hero-desc">Luxury cruises for every occasion, with a variety of chef meals and yachts to choose from.<br>Herzliya Marina and Haifa Marina.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book a Cruise</a>
+                <a href="#services" class="btn btn-outline">Discover Our Services</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#services" class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">What We Offer</p>
+                <h2 class="section-title">Unique Experiences at Sea</h2>
+                <p class="section-desc">A variety of cruises and personalized services for every event and every group</p>
+            </div>
+            <div class="services-grid">
+                <!-- Chef Sailing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/Dinner.jpg" alt="Chef Cruise">
+                        <div class="service-card-overlay">
+                            <a href="#chef" class="btn btn-small">More Details</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127858;</div>
+                        <h3>Chef Cruises</h3>
+                        <p>Special cruises featuring professional chef meals at sea. Choose from a variety of meals - meats, fish, Italian, Moroccan and more.</p>
+                    </div>
+                </div>
+
+                <!-- Overnight Sailing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/ocy54_news1.jpg" alt="Overnight Cruise">
+                        <div class="service-card-overlay">
+                            <a href="#fleet" class="btn btn-small">More Details</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127769;</div>
+                        <h3>Overnight Cruises</h3>
+                        <p>Weekend cruises including overnight stay on a luxury yacht. Selection of yachts including a luxury catamaran, with full board option.</p>
+                    </div>
+                </div>
+
+                <!-- Fishing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/img-3001_orig.jpg" alt="Fishing Cruise">
+                        <div class="service-card-overlay">
+                            <a href="#contact" class="btn btn-small">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127907;</div>
+                        <h3>Fishing Cruises</h3>
+                        <p>Jigging, trolling, bolus and more - a special fishing cruise at sea with professional equipment and a unique experience you won't forget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section class="chef-section" id="chef">
+        <div class="container">
+            <div class="chef-layout">
+                <div class="chef-info" data-animate>
+                    <p class="section-tag">Flavors at Sea</p>
+                    <h2 class="section-title">Chef Meals on the Waves</h2>
+                    <p class="chef-desc">Our chef cruises combine a sailing experience with a gourmet meal at sea. Choose the type of meal that will complete your perfect experience.</p>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="menu-icon">&#129385;</span>
+                            <span class="menu-name">Meat Feast</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#128031;</span>
+                            <span class="menu-name">Fish Feast</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#127837;</span>
+                            <span class="menu-name">Italian Cuisine</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#127859;</span>
+                            <span class="menu-name">Moroccan Cuisine</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#129472;</span>
+                            <span class="menu-name">Cheese & Wine</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#9749;</span>
+                            <span class="menu-name">Gourmet Breakfast</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Book a Chef Cruise</a>
+                </div>
+                <div class="chef-visual" data-animate>
+                    <div class="chef-image-wrapper">
+                        <img src="images/Dinner.jpg" alt="Chef dinner on yacht" class="chef-img">
+                        <div class="chef-badge">
+                            <span class="badge-number">6</span>
+                            <span class="badge-text">Menus<br>to Choose</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overnight / Destinations Section -->
+    <section class="destinations" id="destinations">
+        <div class="destinations-bg">
+            <img src="images/yacht_orig.jpg" alt="Sailing at sea" class="destinations-bg-img">
+            <div class="destinations-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header section-header-light">
+                <p class="section-tag">Overnight Cruises</p>
+                <h2 class="section-title">Sailing Across Israel</h2>
+                <p class="section-desc">Midweek and weekend cruises including overnight stay on a luxury yacht, with full board option</p>
+            </div>
+            <div class="destinations-grid">
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Herzliya Marina</h3>
+                    <p>Our main departure point</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Tel Aviv Marina</h3>
+                    <p>Cruises facing the skyline</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Ashkelon Marina</h3>
+                    <p>Sailing along the southern coast</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Ashdod Marina</h3>
+                    <p>A southern sea experience</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Haifa Marina</h3>
+                    <p>Cruises facing Mount Carmel</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Acre Marina</h3>
+                    <p>Sailing along the ancient city walls</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="fleet" id="fleet">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Yacht Fleet</p>
+                <h2 class="section-title">A Selection of Yachts for Every Event</h2>
+                <p class="section-desc">A variety of yachts in different sizes including a luxury catamaran, suited for every type of experience</p>
+            </div>
+            <div class="fleet-grid">
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/lagoon-380.jpg" alt="Luxury Catamaran">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Luxury Catamaran</h3>
+                        <p>Spacious and stable, perfect for large groups</p>
+                        <span class="fleet-tag">Perfect for Groups</span>
+                    </div>
+                </div>
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/bavaria41.jpeg" alt="Sailing Yacht">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Sailing Yacht</h3>
+                        <p>A classic and authentic sailing experience</p>
+                        <span class="fleet-tag">Classic Sailing</span>
+                    </div>
+                </div>
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/oc40-1-exterior8.jpg" alt="Luxury Yacht">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Luxury Yacht</h3>
+                        <p>Modern design with spacious interiors</p>
+                        <span class="fleet-tag">Luxurious & Spacious</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">For Every Event</p>
+                <h2 class="section-title">Your Event, on the Waves</h2>
+                <p class="section-desc">Every event becomes more special when it takes place on a yacht at sea</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128149;</span>
+                    <h4>Romantic Cruise</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128141;</span>
+                    <h4>Marriage Proposal</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127874;</span>
+                    <h4>Birthdays</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127865;</span>
+                    <h4>Anniversaries</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127881;</span>
+                    <h4>Bachelor/ette Party</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128106;</span>
+                    <h4>Family Events</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128188;</span>
+                    <h4>Corporate Events</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127907;</span>
+                    <h4>Fishing Cruise</h4>
+                </div>
+            </div>
+            <div class="events-cta">
+                <p>Every event receives special attention and a unique celebration</p>
+                <a href="#contact" class="btn btn-primary">Tell Us About Your Event</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Strip -->
+    <section class="gallery-strip">
+        <div class="gallery-scroll">
+            <img src="images/skipper.jpeg" alt="Yacht sailing">
+            <img src="images/Dinner.jpg" alt="Chef dinner on yacht">
+            <img src="images/seasunset.jpg" alt="Sunset at sea">
+            <img src="images/oc40-1-exterior7.jpg" alt="Yacht deck">
+            <img src="images/ocy54_news1.jpg" alt="Yacht bedroom">
+            <img src="images/yacht_orig.jpg" alt="Yacht bow">
+            <img src="images/lagoon-380.jpg" alt="Catamaran">
+            <img src="images/img-3001_orig.jpg" alt="Fishing equipment">
+            <img src="images/oc40-1-exterior8.jpg" alt="Yacht under sail">
+            <img src="images/bavaria41.jpeg" alt="Sailing yacht">
+            <img src="images/seasunset2.jpeg" alt="Sunset from the yacht">
+            <img src="images/oceanis40-1-interior3.jpg" alt="Yacht interior">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info" data-animate>
+                    <p class="section-tag">Let's Talk</p>
+                    <h2 class="section-title">Ready to Set Sail?</h2>
+                    <p class="contact-desc">Contact Arie to arrange the perfect cruise for you. Every cruise is personally tailored to your needs and wishes.</p>
+
+                    <div class="contact-details">
+                        <a href="tel:0585731509" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Phone</span>
+                                <span class="contact-item-value">058-573-1509</span>
+                            </div>
+                        </a>
+                        <a href="mailto:arie.skipper.chef@gmail.com" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Email</span>
+                                <span class="contact-item-value">arie.skipper.chef@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/9720585731509" target="_blank" class="contact-item">
+                            <div class="contact-item-icon whatsapp-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">WhatsApp</span>
+                                <span class="contact-item-value">Send a Message</span>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Location</span>
+                                <span class="contact-item-value">Herzliya Marina | Haifa Marina</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Leave your details and we'll get back to you</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="" disabled selected>Preferred Cruise Type</option>
+                                <option value="chef">Chef Cruise</option>
+                                <option value="overnight">Overnight Cruise</option>
+                                <option value="fishing">Fishing Cruise</option>
+                                <option value="romantic">Romantic Cruise</option>
+                                <option value="event">Special Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your event..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo/Arie-Skipper-_-Chef-1.png" alt="Arie Skipper & Chef" class="footer-logo-img">
+                    <p>Yacht cruises and chef experiences at sea</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#chef">Chef Cruises</a>
+                    <a href="#fleet">Yacht Fleet</a>
+                    <a href="#events">Events</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="tel:0585731509">058-573-1509</a>
+                    <a href="mailto:arie.skipper.chef@gmail.com">arie.skipper.chef@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arie Skipper & Chef. All rights reserved. | <a href="accessibility.html">Accessibility Statement</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9720585731509" target="_blank" class="whatsapp-float" aria-label="Send a WhatsApp message">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- Mobile Call Button -->
+    <a href="tel:0585731509" class="mobile-call-float" aria-label="Call now">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <p>This website uses cookies to improve your browsing experience. By continuing to browse this site, you agree to our use of cookies in accordance with our <a href="accessibility.html#privacy">Privacy Policy</a>.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn-primary btn-cookie" id="cookieAccept">Accept</button>
+                <button class="btn btn-cookie-decline" id="cookieDecline">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accessibility Toolbar -->
+    <button class="a11y-toggle" id="a11yToggle" aria-label="Accessibility menu" title="Accessibility">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm9 7h-6l-2 13h-2L9 9H3V7h18v2z"/></svg>
+    </button>
+    <div class="a11y-panel" id="a11yPanel">
+        <div class="a11y-header">
+            <h3>Accessibility Menu</h3>
+            <button class="a11y-close" id="a11yClose" aria-label="Close">&times;</button>
+        </div>
+        <div class="a11y-options">
+            <button class="a11y-btn" data-action="font-increase">
+                <span class="a11y-btn-icon">A+</span>
+                <span>Increase Text</span>
+            </button>
+            <button class="a11y-btn" data-action="font-decrease">
+                <span class="a11y-btn-icon">A-</span>
+                <span>Decrease Text</span>
+            </button>
+            <button class="a11y-btn" data-action="high-contrast">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg></span>
+                <span>High Contrast</span>
+            </button>
+            <button class="a11y-btn" data-action="grayscale">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="22"/></svg></span>
+                <span>Grayscale</span>
+            </button>
+            <button class="a11y-btn" data-action="underline-links">
+                <span class="a11y-btn-icon"><u>U</u></span>
+                <span>Underline Links</span>
+            </button>
+            <button class="a11y-btn" data-action="readable-font">
+                <span class="a11y-btn-icon">Aa</span>
+                <span>Readable Font</span>
+            </button>
+            <button class="a11y-btn a11y-reset" data-action="reset">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></span>
+                <span>Reset</span>
+            </button>
+        </div>
+        <a href="accessibility.html" class="a11y-statement-link">Accessibility Statement</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

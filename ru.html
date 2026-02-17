@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arie Skipper & Chef | Яхтенные круизы и кулинарные впечатления в море</title>
+    <meta name="description" content="Роскошные яхтенные круизы с блюдами от шеф-повара в открытом море. Романтические круизы, мероприятия, рыболовные круизы и круизы с ночёвкой. Марина Герцлия и Хайфа.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-ltr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Frank+Ruhl+Libre:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="images/logo/Arie-Skipper-_-Chef-1.png" alt="Arie Skipper & Chef" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Главная</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#chef" class="nav-link">Круизы с Шефом</a></li>
+                <li><a href="#fleet" class="nav-link">Флот Яхт</a></li>
+                <li><a href="#events" class="nav-link">Мероприятия</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Связаться</a></li>
+                <li class="nav-lang">
+                    <button class="lang-toggle" aria-label="Язык">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        <span>RU</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <a href="index.html" class="lang-option">עברית</a>
+                        <a href="en.html" class="lang-option">English</a>
+                        <a href="fr.html" class="lang-option">Français</a>
+                        <a href="ru.html" class="lang-option active">Русский</a>
+                        <a href="ar.html" class="lang-option">العربية</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/seasunset2.jpeg" alt="Закат с яхты" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Добро пожаловать в незабываемый опыт</p>
+            <h1 class="hero-title">Яхтенные Круизы<br><span class="hero-highlight">с Блюдами от Шефа</span><br>в Открытом Море</h1>
+            <p class="hero-desc">Роскошные круизы для любого события, с разнообразными блюдами от шеф-повара и яхтами на выбор.<br>Марина Герцлия и Марина Хайфа.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Забронировать Круиз</a>
+                <a href="#services" class="btn btn-outline">Узнать об Услугах</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#services" class="scroll-indicator">
+                <span>Листайте вниз</span>
+                <div class="scroll-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Что Мы Предлагаем</p>
+                <h2 class="section-title">Уникальные Впечатления в Море</h2>
+                <p class="section-desc">Разнообразные круизы и персонализированные услуги для каждого мероприятия и каждой группы</p>
+            </div>
+            <div class="services-grid">
+                <!-- Chef Sailing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/Dinner.jpg" alt="Круиз с шеф-поваром">
+                        <div class="service-card-overlay">
+                            <a href="#chef" class="btn btn-small">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127858;</div>
+                        <h3>Круизы с Шеф-поваром</h3>
+                        <p>Особые круизы с профессиональными блюдами шеф-повара в море. Выбирайте из разнообразных блюд - мясо, рыба, итальянская, марокканская кухня и многое другое.</p>
+                    </div>
+                </div>
+
+                <!-- Overnight Sailing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/ocy54_news1.jpg" alt="Круиз с ночёвкой">
+                        <div class="service-card-overlay">
+                            <a href="#fleet" class="btn btn-small">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127769;</div>
+                        <h3>Круизы с Ночёвкой</h3>
+                        <p>Круизы на выходные с ночёвкой на роскошной яхте. Выбор яхт включая роскошный катамаран, с возможностью полного пансиона.</p>
+                    </div>
+                </div>
+
+                <!-- Fishing -->
+                <div class="service-card" data-animate>
+                    <div class="service-card-img">
+                        <img src="images/img-3001_orig.jpg" alt="Рыболовный круиз">
+                        <div class="service-card-overlay">
+                            <a href="#contact" class="btn btn-small">Забронировать</a>
+                        </div>
+                    </div>
+                    <div class="service-card-content">
+                        <div class="service-icon">&#127907;</div>
+                        <h3>Рыболовные Круизы</h3>
+                        <p>Джиггинг, троллинг, болус и многое другое - особый рыболовный круиз в море с профессиональным оборудованием и незабываемым опытом.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Section -->
+    <section class="chef-section" id="chef">
+        <div class="container">
+            <div class="chef-layout">
+                <div class="chef-info" data-animate>
+                    <p class="section-tag">Вкусы в Море</p>
+                    <h2 class="section-title">Блюда от Шефа на Волнах</h2>
+                    <p class="chef-desc">Наши круизы с шеф-поваром сочетают морской опыт с гурмэ-трапезой в открытом море. Выберите тип блюда, который дополнит ваш идеальный опыт.</p>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="menu-icon">&#129385;</span>
+                            <span class="menu-name">Мясное Пиршество</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#128031;</span>
+                            <span class="menu-name">Рыбное Пиршество</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#127837;</span>
+                            <span class="menu-name">Итальянская Кухня</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#127859;</span>
+                            <span class="menu-name">Марокканская Кухня</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#129472;</span>
+                            <span class="menu-name">Сыры и Вино</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="menu-icon">&#9749;</span>
+                            <span class="menu-name">Гурмэ Завтрак</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Забронировать Круиз с Шефом</a>
+                </div>
+                <div class="chef-visual" data-animate>
+                    <div class="chef-image-wrapper">
+                        <img src="images/Dinner.jpg" alt="Ужин от шефа на яхте" class="chef-img">
+                        <div class="chef-badge">
+                            <span class="badge-number">6</span>
+                            <span class="badge-text">Меню<br>на выбор</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overnight / Destinations Section -->
+    <section class="destinations" id="destinations">
+        <div class="destinations-bg">
+            <img src="images/yacht_orig.jpg" alt="Плавание в море" class="destinations-bg-img">
+            <div class="destinations-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header section-header-light">
+                <p class="section-tag">Круизы с Ночёвкой</p>
+                <h2 class="section-title">Плавание по Израилю</h2>
+                <p class="section-desc">Круизы среди недели и по выходным с ночёвкой на роскошной яхте, с возможностью полного пансиона</p>
+            </div>
+            <div class="destinations-grid">
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Герцлия</h3>
+                    <p>Наш основной пункт отправления</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Тель-Авив</h3>
+                    <p>Круизы на фоне небоскрёбов</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Ашкелон</h3>
+                    <p>Плавание вдоль южного побережья</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Ашдод</h3>
+                    <p>Южный морской опыт</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Хайфа</h3>
+                    <p>Круизы у горы Кармель</p>
+                </div>
+                <div class="dest-card" data-animate>
+                    <div class="dest-icon">&#9875;</div>
+                    <h3>Марина Акко</h3>
+                    <p>Плавание вдоль стен старого города</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="fleet" id="fleet">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Флот Яхт</p>
+                <h2 class="section-title">Выбор Яхт для Любого Мероприятия</h2>
+                <p class="section-desc">Разнообразные яхты разных размеров включая роскошный катамаран, подходящие для любого типа впечатлений</p>
+            </div>
+            <div class="fleet-grid">
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/lagoon-380.jpg" alt="Роскошный катамаран">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Роскошный Катамаран</h3>
+                        <p>Просторный и устойчивый, идеален для больших групп</p>
+                        <span class="fleet-tag">Идеален для Групп</span>
+                    </div>
+                </div>
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/bavaria41.jpeg" alt="Парусная яхта">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Парусная Яхта</h3>
+                        <p>Классический и аутентичный опыт плавания</p>
+                        <span class="fleet-tag">Классическое Плавание</span>
+                    </div>
+                </div>
+                <div class="fleet-card" data-animate>
+                    <div class="fleet-card-img">
+                        <img src="images/oc40-1-exterior8.jpg" alt="Роскошная яхта">
+                    </div>
+                    <div class="fleet-card-content">
+                        <h3>Роскошная Яхта</h3>
+                        <p>Современный дизайн с просторными интерьерами</p>
+                        <span class="fleet-tag">Роскошная и Просторная</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-tag">Для Любого Мероприятия</p>
+                <h2 class="section-title">Ваше Мероприятие на Волнах</h2>
+                <p class="section-desc">Каждое мероприятие становится особенным, когда проходит на яхте в море</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128149;</span>
+                    <h4>Романтический Круиз</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128141;</span>
+                    <h4>Предложение Руки</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127874;</span>
+                    <h4>Дни Рождения</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127865;</span>
+                    <h4>Годовщины</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127881;</span>
+                    <h4>Мальчишник/Девичник</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128106;</span>
+                    <h4>Семейные Мероприятия</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#128188;</span>
+                    <h4>Корпоративы</h4>
+                </div>
+                <div class="event-item" data-animate>
+                    <span class="event-icon">&#127907;</span>
+                    <h4>Рыболовный Круиз</h4>
+                </div>
+            </div>
+            <div class="events-cta">
+                <p>Каждое мероприятие получает особое внимание и уникальное празднование</p>
+                <a href="#contact" class="btn btn-primary">Расскажите о Вашем Мероприятии</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Strip -->
+    <section class="gallery-strip">
+        <div class="gallery-scroll">
+            <img src="images/skipper.jpeg" alt="Яхта в плавании">
+            <img src="images/Dinner.jpg" alt="Ужин от шефа на яхте">
+            <img src="images/seasunset.jpg" alt="Закат в море">
+            <img src="images/oc40-1-exterior7.jpg" alt="Палуба яхты">
+            <img src="images/ocy54_news1.jpg" alt="Спальня на яхте">
+            <img src="images/yacht_orig.jpg" alt="Нос яхты">
+            <img src="images/lagoon-380.jpg" alt="Катамаран">
+            <img src="images/img-3001_orig.jpg" alt="Рыболовное снаряжение">
+            <img src="images/oc40-1-exterior8.jpg" alt="Яхта на ходу">
+            <img src="images/bavaria41.jpeg" alt="Парусная яхта">
+            <img src="images/seasunset2.jpeg" alt="Закат с яхты">
+            <img src="images/oceanis40-1-interior3.jpg" alt="Интерьер яхты">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info" data-animate>
+                    <p class="section-tag">Давайте Поговорим</p>
+                    <h2 class="section-title">Готовы к Плаванию?</h2>
+                    <p class="contact-desc">Свяжитесь с Арье для организации идеального круиза для вас. Каждый круиз индивидуально адаптирован к вашим потребностям и пожеланиям.</p>
+
+                    <div class="contact-details">
+                        <a href="tel:0585731509" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Телефон</span>
+                                <span class="contact-item-value">058-573-1509</span>
+                            </div>
+                        </a>
+                        <a href="mailto:arie.skipper.chef@gmail.com" class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Эл. почта</span>
+                                <span class="contact-item-value">arie.skipper.chef@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/9720585731509" target="_blank" class="contact-item">
+                            <div class="contact-item-icon whatsapp-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">WhatsApp</span>
+                                <span class="contact-item-value">Отправить сообщение</span>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-item-label">Местоположение</span>
+                                <span class="contact-item-value">Марина Герцлия | Марина Хайфа</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate>
+                    <form class="contact-form" id="contactForm">
+                        <h3>Оставьте ваши данные и мы свяжемся с вами</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Полное Имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="" disabled selected>Предпочитаемый Тип Круиза</option>
+                                <option value="chef">Круиз с Шефом</option>
+                                <option value="overnight">Круиз с Ночёвкой</option>
+                                <option value="fishing">Рыболовный Круиз</option>
+                                <option value="romantic">Романтический Круиз</option>
+                                <option value="event">Особое Мероприятие</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Расскажите нам о вашем мероприятии..." rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Отправить Запрос</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo/Arie-Skipper-_-Chef-1.png" alt="Arie Skipper & Chef" class="footer-logo-img">
+                    <p>Яхтенные круизы и кулинарные впечатления в море</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#services">Услуги</a>
+                    <a href="#chef">Круизы с Шефом</a>
+                    <a href="#fleet">Флот Яхт</a>
+                    <a href="#events">Мероприятия</a>
+                    <a href="#contact">Связаться</a>
+                </div>
+                <div class="footer-contact">
+                    <a href="tel:0585731509">058-573-1509</a>
+                    <a href="mailto:arie.skipper.chef@gmail.com">arie.skipper.chef@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arie Skipper & Chef. Все права защищены. | <a href="accessibility.html">Заявление о доступности</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9720585731509" target="_blank" class="whatsapp-float" aria-label="Отправить сообщение в WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- Mobile Call Button -->
+    <a href="tel:0585731509" class="mobile-call-float" aria-label="Позвонить сейчас">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <p>Этот сайт использует файлы cookie для улучшения вашего опыта просмотра. Продолжая использовать этот сайт, вы соглашаетесь с нашей <a href="accessibility.html#privacy">Политикой конфиденциальности</a>.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn-primary btn-cookie" id="cookieAccept">Принять</button>
+                <button class="btn btn-cookie-decline" id="cookieDecline">Отклонить</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accessibility Toolbar -->
+    <button class="a11y-toggle" id="a11yToggle" aria-label="Меню доступности" title="Доступность">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm9 7h-6l-2 13h-2L9 9H3V7h18v2z"/></svg>
+    </button>
+    <div class="a11y-panel" id="a11yPanel">
+        <div class="a11y-header">
+            <h3>Меню Доступности</h3>
+            <button class="a11y-close" id="a11yClose" aria-label="Закрыть">&times;</button>
+        </div>
+        <div class="a11y-options">
+            <button class="a11y-btn" data-action="font-increase">
+                <span class="a11y-btn-icon">A+</span>
+                <span>Увеличить Текст</span>
+            </button>
+            <button class="a11y-btn" data-action="font-decrease">
+                <span class="a11y-btn-icon">A-</span>
+                <span>Уменьшить Текст</span>
+            </button>
+            <button class="a11y-btn" data-action="high-contrast">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg></span>
+                <span>Высокий Контраст</span>
+            </button>
+            <button class="a11y-btn" data-action="grayscale">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="22"/></svg></span>
+                <span>Оттенки Серого</span>
+            </button>
+            <button class="a11y-btn" data-action="underline-links">
+                <span class="a11y-btn-icon"><u>U</u></span>
+                <span>Подчеркнуть Ссылки</span>
+            </button>
+            <button class="a11y-btn" data-action="readable-font">
+                <span class="a11y-btn-icon">Aa</span>
+                <span>Читаемый Шрифт</span>
+            </button>
+            <button class="a11y-btn a11y-reset" data-action="reset">
+                <span class="a11y-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></span>
+                <span>Сбросить</span>
+            </button>
+        </div>
+        <a href="accessibility.html" class="a11y-statement-link">Заявление о Доступности</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

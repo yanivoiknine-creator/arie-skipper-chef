@@ -1,0 +1,111 @@
+/* ===================================
+   LTR Override Styles
+   For English, French, Russian pages
+   =================================== */
+
+body {
+    direction: ltr;
+    font-family: 'Poppins', 'Montserrat', 'Inter', 'Open Sans', 'Heebo', sans-serif;
+}
+
+.section-title {
+    font-family: 'Poppins', 'Montserrat', 'Frank Ruhl Libre', serif;
+}
+
+.service-card-content h3,
+.dest-card h3,
+.fleet-card-content h3,
+.contact-form h3 {
+    font-family: 'Poppins', 'Montserrat', 'Frank Ruhl Libre', serif;
+}
+
+.hero-title {
+    font-family: 'Poppins', 'Montserrat', 'Frank Ruhl Libre', serif;
+}
+
+.badge-number {
+    font-family: 'Poppins', 'Montserrat', 'Frank Ruhl Libre', serif;
+}
+
+.btn {
+    font-family: 'Poppins', 'Montserrat', 'Inter', 'Open Sans', 'Heebo', sans-serif;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    direction: ltr;
+    font-family: 'Poppins', 'Montserrat', 'Inter', 'Open Sans', 'Heebo', sans-serif;
+}
+
+/* Flip select arrow position for LTR */
+.form-group select {
+    background-position: calc(100% - 16px) center;
+}
+
+/* Chef badge position for LTR */
+.chef-badge {
+    right: auto;
+    left: 24px;
+}
+
+/* Mobile nav slides from left in LTR */
+@media (max-width: 768px) {
+    .nav-menu {
+        right: auto;
+        left: -100%;
+    }
+
+    .nav-menu.active {
+        right: auto;
+        left: 0;
+    }
+}
+
+/* Gallery animation direction for LTR */
+.gallery-scroll {
+    animation-name: scrollGalleryLTR;
+}
+
+@keyframes scrollGalleryLTR {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* Language switcher margin for LTR */
+.nav-lang {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    .nav-lang {
+        margin-left: 0;
+    }
+}
+
+/* Accessibility toggle position for LTR */
+.a11y-toggle {
+    right: auto;
+    left: 0;
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    border-right: 2px solid var(--white);
+}
+
+.a11y-panel {
+    right: auto;
+    left: -320px;
+    border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+.a11y-panel.open {
+    right: auto;
+    left: 0;
+}
+
+/* Legal page list padding for LTR */
+.legal-page ul {
+    padding-right: 0;
+    padding-left: 24px;
+}
