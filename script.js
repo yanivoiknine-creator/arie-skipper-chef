@@ -119,7 +119,8 @@ document.addEventListener('DOMContentLoaded', () => {
         en: { greeting: 'Hello Arie, my name is', phone: 'Phone', interested: 'Interested in', msg: 'Message', success: 'Inquiry sent!', redirect: 'Redirecting you to WhatsApp...' },
         fr: { greeting: 'Bonjour Arie, je suis', phone: 'Téléphone', interested: 'Intéressé(e) par', msg: 'Message', success: 'Demande envoyée !', redirect: 'Redirection vers WhatsApp...' },
         ru: { greeting: 'Здравствуйте Арье, меня зовут', phone: 'Телефон', interested: 'Интересует', msg: 'Сообщение', success: 'Запрос отправлен!', redirect: 'Перенаправляем в WhatsApp...' },
-        ar: { greeting: 'مرحباً آريه، أنا', phone: 'هاتف', interested: 'مهتم/ة بـ', msg: 'رسالة', success: 'تم إرسال الطلب!', redirect: 'جاري تحويلكم إلى واتساب...' }
+        ar: { greeting: 'مرحباً آريه، أنا', phone: 'هاتف', interested: 'مهتم/ة بـ', msg: 'رسالة', success: 'تم إرسال الطلب!', redirect: 'جاري تحويلكم إلى واتساب...' },
+        es: { greeting: 'Hola Arie, mi nombre es', phone: 'Teléfono', interested: 'Interesado/a en', msg: 'Mensaje', success: '¡Consulta enviada!', redirect: 'Redirigiendo a WhatsApp...' }
     };
 
     const strings = formStrings[pageLang] || formStrings.he;

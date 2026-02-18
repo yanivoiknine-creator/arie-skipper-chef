@@ -237,6 +237,39 @@ a {
     letter-spacing: 0.5px;
 }
 
+/* --- Nav Social Icons --- */
+.nav-social {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    list-style: none;
+}
+
+.nav-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    color: var(--gray-600);
+    transition: var(--transition);
+}
+
+.nav-social a:hover {
+    color: var(--accent);
+    background: var(--gray-100);
+}
+
+.navbar:not(.scrolled) .nav-social a {
+    color: rgba(255,255,255,0.8);
+}
+
+.navbar:not(.scrolled) .nav-social a:hover {
+    color: var(--white);
+    background: rgba(255,255,255,0.15);
+}
+
 /* --- Language Switcher --- */
 .nav-lang {
     position: relative;
@@ -769,8 +802,8 @@ a {
 
 .fleet-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 
 .fleet-card {
@@ -787,7 +820,7 @@ a {
 }
 
 .fleet-card-img {
-    height: 220px;
+    height: 180px;
     overflow: hidden;
 }
 
@@ -803,12 +836,12 @@ a {
 }
 
 .fleet-card-content {
-    padding: 24px;
+    padding: 16px 20px;
 }
 
 .fleet-card-content h3 {
     font-family: 'Frank Ruhl Libre', serif;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
     font-weight: 700;
     color: var(--primary-dark);
     margin-bottom: 4px;
@@ -1135,6 +1168,29 @@ a {
     color: var(--accent);
 }
 
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    color: var(--gray-400);
+    transition: var(--transition);
+}
+
+.footer-social a:hover {
+    background: var(--accent);
+    color: var(--white);
+}
+
 .footer-bottom {
     padding: 20px 0;
     text-align: center;
@@ -1308,6 +1364,18 @@ a {
     }
     .nav-toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .nav-social {
+        justify-content: center;
+        gap: 8px;
+        padding: 8px 0;
+    }
+
+    .nav-social a {
+        color: var(--gray-600);
+        width: 40px;
+        height: 40px;
     }
 
     .nav-lang {
